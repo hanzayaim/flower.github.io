@@ -20,6 +20,14 @@
     }
 }
 
+#hidden-audio {
+  position: absolute;
+  left: -9999px;
+  visibility: hidden;
+  width: 1px;
+  height: 1px;
+}
+
 
 .container {
     display: flex;
