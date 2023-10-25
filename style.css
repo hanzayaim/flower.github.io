@@ -28,6 +28,27 @@ p {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
+p {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    max-width: 400px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    animation: fadeIn 1.5s ease-in-out; /* Adjust the duration and timing function as needed */
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 :root {
     --color-bg: linear-gradient(to top, #010329, #000005);
     --color-glass: linear-gradient(to left, #142544, #1a9092);
