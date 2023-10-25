@@ -21,11 +21,7 @@
 }
 
 #hidden-audio {
-  position: absolute;
-  left: -9999px;
-  visibility: hidden;
-  width: 1px;
-  height: 1px;
+  display: none;
 }
 
 
@@ -49,7 +45,7 @@ p {
     font-size: 17px;
     max-width: 400px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    animation: fadeIn 300s forward;
+    animation: fadeIn 1.5s forwards;
     opacity: 0;
 }
 
