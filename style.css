@@ -41,14 +41,6 @@ p {
     font-size: 17px;
     max-width: 400px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-
-p {
-    color: white;
-    font-family: monospace;
-    font-size: 17px;
-    max-width: 400px;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     animation: fadeIn 300s forward;
     opacity: 0;
 }
