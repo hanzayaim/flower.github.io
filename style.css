@@ -49,7 +49,7 @@ p {
     font-size: 17px;
     max-width: 400px;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    animation: fadeIn 1.5s ease-in-out; /* Adjust the duration and timing function as needed */
+    animation: fadeIn 1.5s forward;
     opacity: 0;
 }
 
