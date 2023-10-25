@@ -33,6 +33,27 @@
     margin-right: 90px;
 }
 
+@media (max-width: 768px) {
+    .content {
+        padding: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    p {
+        max-width: 100%;
+    }
+
+    .flower {
+        display: none;
+    }
+}
+
 .content {
     flex: 10;
     padding: 50px;
