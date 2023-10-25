@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .content {
+        padding: 20px;
+    }
+
+    p {
+        max-width: 100%;
+    }
+
+    .flower {
+        display: none;
+    }
+}
+
+
 .container {
     display: flex;
     justify-content: space-between;
